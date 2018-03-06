@@ -1,0 +1,21 @@
+Package: SCIndex
+Type: Package
+Title: Supply Chain Index
+Description: XXXXXXXXXXXXXXXX
+Version: 0.0.1
+Date: 2018-3-6
+Authors@R: c(
+    person("Yixuan", "Xu", email = "xyixuan@ceibs.edu", role = c("aut", "cre")),
+    person("Zhenran", "Zhu", email = "XXX@XXXXXXX", role = "aut")
+  )
+Maintainer: Yixuan Xu <xyixuan@ceibs.edu>
+License: Apache License 2.0 | file LICENSE
+SystemRequirements: Spark: 2.x
+RoxygenNote: 6.0.1.9000
+Depends:
+    R (>= 3.1.2),
+Imports: 
+    SparkR,
+    gpuR
+Suggests:
+    testthat
